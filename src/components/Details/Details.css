@@ -1,0 +1,27 @@
+.detailsBody{
+    background-color: #0E0A2A;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+.banner{
+    background-color: #3A42FF;
+    border-radius: 10px;
+    padding-top:20px;
+    display: grid;
+    grid-template-columns: 800px 700px;
+    padding-left: 60px;
+}
+.info{
+    width:65%;
+}
+.img{
+    width: 35%;
+}
+.img img{
+    width:100%;
+    border-radius: 10px;
+}
+.color{
+    color: white;
+}
