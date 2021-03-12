@@ -19,7 +19,7 @@ const TeamsList = (props) => {
                
                     <div className="box"><br/>
                         <img src={strTeamBadge} alt=""/>
-                        <h2 style={{color: 'black'}}>{strAlternate}</h2>
+                        <h3 style={{color: 'black'}}>{strAlternate}</h3>
                         <p style={{color: 'black'}}>Sports type: Football</p>
                         <h6>{idTeam}</h6>
                         <Link to={"/"+idTeam}><h6 className="btn btn-primary">Explore</h6></Link><br/><br/>
